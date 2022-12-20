@@ -1,0 +1,79 @@
+body,
+html,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html,
+#app {
+  height: 100%;
+}
+
+body,
+html {
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  color: var(--color-text-primary);
+}
+
+
+.em-font-style-none {
+  font-style: normal;
+  font-size: 12px;
+}
+
+.pointer {
+  cursor: pointer
+}
+
+// ul
+ul {
+  // list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.applet-box,
+.content-box ul {
+  list-style: none;
+}
+
+*:focus-visible {
+  outline: none;
+}
+
+
+// 禁止复制出现蓝色背景
+.no-user-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+
+// elemnet
+
+.el-tabs__header {
+  margin: 0;
+}
+
+.h-notify-left {
+  .el-notification__content {
+    text-align: left;
+  }
+}
+
+.el-drawer {
+  -webkit-app-region: no-drag;
+}
+
+

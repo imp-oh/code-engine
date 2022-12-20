@@ -1,0 +1,90 @@
+// 辅色
+$color-primary:#409EFF !default; //基本的
+$color-success:#67C23A !default; //成功
+$color-warning:#E6A23C !default; //警告
+$color-danger:#F56C6C !default; //危险
+$color-info:#909399 !default; //信息
+
+
+// 字体颜色
+$color-text-primary:#303133 !default; // 主要文本
+$color-text-regular:#606266 !default; // 常规文本
+$color-text-secondary:#909399 !default; // 次要文本
+$color-text-placeholder:#C0C4CC !default; // 占位符
+
+
+//边框颜色
+$border-color-base:#DCDFE6 !default; // 一级边框颜色
+$border-color-light:#E4E7ED !default; // 二级边框颜色
+$border-color-lighter:#EBEEF5 !default; // 三级边框颜色
+$border-color-extra-light:#F2F6FC !default; // 四级边框颜色
+
+
+// 背景
+$color-white:#FFFFFF !default; // 基础白色
+$color-black:#000000 !default; // 基础黑
+$background-color-base:#F5F7FA !default; // 基础背景
+
+
+
+/* Typography
+-------------------------- */
+$--font-path: 'fonts' !default;
+$--font-display: 'auto' !default;
+/// fontSize|1|Font Size|0
+$--font-size-extra-large: 20px !default;
+/// fontSize|1|Font Size|0
+$--font-size-large: 18px !default;
+/// fontSize|1|Font Size|0
+$--font-size-medium: 16px !default;
+/// fontSize|1|Font Size|0
+$--font-size-base: 14px !default;
+/// fontSize|1|Font Size|0
+$--font-size-small: 13px !default;
+/// fontSize|1|Font Size|0
+$--font-size-extra-small: 12px !default;
+/// fontWeight|1|Font Weight|1
+$--font-weight-primary: 500 !default;
+/// fontWeight|1|Font Weight|1
+$--font-weight-secondary: 100 !default;
+/// fontLineHeight|1|Line Height|2
+$--font-line-height-primary: 24px !default;
+/// fontLineHeight|1|Line Height|2
+$--font-line-height-secondary: 16px !default;
+$--font-color-disabled-base: #bbb !default;
+
+
+
+
+:root {
+  // 颜色
+  --color-ccc:#ccc;
+
+
+  // 文本字体颜色
+  --color-text-primary:#303133; // 主要文本
+  --color-text-primary-hover:#2c8ab7;
+  
+  --color-text-regular:#606266; // 常规文本
+  --color-text-secondary:#909399;
+  --color-text-white:white;
+
+
+  // 背景颜色
+  --background-color: #f3f6f9; 
+  --background-color-white: white;
+
+
+  // 悬浮背景颜色
+  --hover-background-color-primary: #409EFF;
+
+
+
+  // 边框颜色
+  --border-color-ccc:#ccc;
+  --border-color-eee: #eee;
+
+
+  // 页面背景颜色
+  --page-background-color-user:#7d86a9;
+}
